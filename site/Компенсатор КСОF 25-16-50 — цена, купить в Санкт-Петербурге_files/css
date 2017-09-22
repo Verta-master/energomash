@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<LINK REL="SHORTCUT ICON" HREF="#" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Error</title>
+<link rel="stylesheet" type="text/css" href="http://ru2.gsr.awhoer.net/home287/css/style.css?2" />
+</head>
+
+<body>
+<script type="text/javascript">
+	var ROOT_DOMAIN='awhoer.net';
+	var REAL_PROXY_HOST='ru2.gsr.awhoer.net';
+	var PROXY_MODE='URL_ENCRYPT';
+	var REAL_URL='';
+	var PRX_MODE='general';
+	var topFix=1;
+</script>
+<script type="text/javascript" src="http://ru2.gsr.awhoer.net/home287/jquery/jquery.min.js?1"></script>
+<script type="text/javascript" src="http://ru2.gsr.awhoer.net/home287/addressBar/addressBar.js?14"></script>
+
+	<br><br><br><br><br><br><br><br>
+	<div id="container">
+
+<div style="color: #d42828; font-weight: bold; text-align: center;">
+
+
+   <div class="top">Request parsing error</div>
+	
+
+</div>
+
+</div>
+
+<script type="text/javascript" src="http://ru2.gsr.awhoer.net/home287/filetypecheck/mediaCheck.js"></script>
+<script type="text/javascript">
+	var mediaCheck = getCookie("mediaCheck");
+	if (mediaCheck==null || mediaCheck=="") {
+		
+		jq(function(){	prx_filetypecheck.init();}); 
+	}
+</script>
+
+	
+</body>
+</html>

@@ -1,0 +1,7 @@
+$(document).ready(function(){$('.shop_preview_img img').click(function(){var shop=$(this).parents('.shop_id');shop.find('.shop_all_img img').hide();shop.find('.shop_preview_img img').removeClass('active');$(this).addClass('active');shop.find('.shop_all_img img[image_id='+$(this).attr('image_id')+']').show();});if($('.shop_preview_img').length)
+{var price_image=false;if($('.shop_id .shop_param_price'))
+{var param_code='';$(".shop_id .depend_param").each(function(){param_code=param_code+'['+$(this).attr('name')+'='+$(this).val()+']';});if($('.shop_id .shop_param_price'+param_code).length&&$('.shop_id .shop_param_price'+param_code).attr('image_id'))
+{price_image=true;}}
+if(!price_image)
+{$('.shop_id .shop_preview_img img').first().addClass('active');$('.shop_id .shop_all_img img').hide();$('.shop_id .shop_all_img img').first().show();}}
+$('.slider4').bxSlider({infiniteLoop:false,slideWidth:78,minSlides:0,maxSlides:3,moveSlides:1,slideMargin:18,hideControlOnEnd:true});});
