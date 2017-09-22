@@ -6,7 +6,7 @@ $(document).ready(function(e) {
   
   	$('.object').bxSlider({
 		slideWidth: 200,
-		minSlides: 2,
+		minSlides: 1,
 		maxSlides: 4,
 		moveSlides: 1,
 		slideMargin: 25,

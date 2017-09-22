@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="css/style-1.min.css">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link href="css/style-2.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
 
   <!--[if gte IE 9]>
     <style type="text/css">
@@ -88,6 +89,8 @@
 			  <li><a href="#">Уровнемеры тросовые</a></li>
 			  <li class="active">
 			    <a href="#" dropdownclass="active">Еще</a>
+          <input type="checkbox" name="menu-drop" id="menu-drop" class="menu-drop">
+          <label for="menu-drop" class="menu-drop__label"></label>
           <div class="level-dve-top-menu">
             <div class="top-menu-arrow"></div>
             <div class="topmenu-second"  id="container">
@@ -172,7 +175,8 @@
     <div class="our-clients-block">
       <div class="block_header">Наши услуги</div>
     </div>
-  </div>		
+  </div>
+  	
 	<div class="servises-index-page">
 		<div class="category-first-page-catalog left">
 			<a href="#">
@@ -285,10 +289,12 @@
 	<div id="our-clients">
     <div class="our-clients-block">
       <div class="block_header">Наши поставщики</div>
-      <p><img src="img/rospipe_index_v03_07.png" width="220" height="93" alt="РосАтом" title="РосАтом"></p>
-      <p><img src="img/rospipe_index_v03_09.png" width="220" height="93" alt="УГМК" title="УГМК"></p>
-      <p><img src="img/rospipe_index_v03_11.png" width="220" height="93" alt="КЭС Холдинг" title="КЭС Холдинг"></p>
-      <p><img src="img/rospipe_index_v03_13.png" width="220" height="93" alt="ТМК" title="ТМК"></p>
+      <div class="our-clients__list">
+        <p><img src="img/rospipe_index_v03_07.png" width="220" height="93" alt="РосАтом" title="РосАтом"></p>
+        <p><img src="img/rospipe_index_v03_09.png" width="220" height="93" alt="УГМК" title="УГМК"></p>
+        <p><img src="img/rospipe_index_v03_11.png" width="220" height="93" alt="КЭС Холдинг" title="КЭС Холдинг"></p>
+        <p><img src="img/rospipe_index_v03_13.png" width="220" height="93" alt="ТМК" title="ТМК"></p>
+      </div>
     </div>
   </div>
 	
@@ -484,26 +490,27 @@
 
 <!--  <script type="text/javascript" src="js/jquery.min.js" charset="UTF-8"></script>-->
   <script src="js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.form.min.js" charset="UTF-8"></script>
-  <script type="text/javascript" src="js/jquery-ui.min.js" charset="UTF-8"></script>
-  <script type="text/javascript" src="js/timepicker.js" charset="UTF-8"></script>
+  <script src="js/jquery.form.min.js" charset="UTF-8"></script>
+  <script src="js/jquery-ui.min.js" charset="UTF-8"></script>
+  <script src="js/timepicker.js" charset="UTF-8"></script>
   <script type="text/javascript">
     jQuery(function(e){
     e.datepicker.setDefaults(e.datepicker.regional["ru"]);
     e.timepicker.setDefaults(e.timepicker.regional["ru"]);
     });
   </script>
-  <script type="text/javascript" src="js/jquery.scrollTo.min.js" charset="UTF-8"></script>
-  <script type="text/javascript" src="js/jquery.maskedinput.js" charset="UTF-8"></script>
-  <script type="text/javascript"  src="js/jquery.touchSwipe.min.js" charset="UTF-8"></script>
+  <script src="js/jquery.scrollTo.min.js" charset="UTF-8"></script>
+  <script src="js/jquery.maskedinput.js" charset="UTF-8"></script>
+  <script src="js/jquery.touchSwipe.min.js" charset="UTF-8"></script>
   <script src="js/script-1.js"></script>
-  <script type="text/javascript" src="js/script-2.js" charset="UTF-8"></script>
-  <script asyncsrc="js/script-3.js" type="text/javascript" charset="UTF-8"></script>
-  <script type="text/javascript" asyncsrc="js/script-4.js"></script>
-  <script asyncsrc="js/main.js" type="text/javascript"></script>
-  <script src="js/jquery.arcticmodal-0.3.min.js" type="text/javascript"></script>
-  <script src="js/scripts.js" type="text/javascript"></script>
-  <script src="js/masonry.pkgd.js" type="text/javascript"></script>
-  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/script-2.js" charset="UTF-8"></script>
+  <script asyncsrc="js/script-3.js" charset="UTF-8"></script>
+  <script asyncsrc="js/script-4.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script asyncsrc="js/main.js"></script>
+  <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/masonry.pkgd.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
 </body>
 </html>

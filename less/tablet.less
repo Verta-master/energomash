@@ -1,0 +1,171 @@
+@media @desktop {
+  .topmenu-small-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #header {
+    height: auto;
+  }
+  .header-block {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .logo,
+  .search-block,
+  .header-adres,
+  .header-phone {
+    float: none;
+  }
+  .search-block {
+    width: 40%;
+  }
+  .header-adres {
+    width: 20%;
+  }
+  .header-phone {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-phone .number {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .menu-drop__label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/arrow-name-category.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(90deg);
+    cursor: pointer;
+  }
+  .topmenu li:last-child {
+    display: inline-flex;
+    align-items: center;
+  }
+  .topmenu li:hover .level-dve-top-menu {
+    display: none;
+  }
+  .menu-drop:checked ~ .level-dve-top-menu {
+    display: block !important;
+    top: 40px;
+    left: -80px !important;
+  }
+  .menu-drop:checked + label {
+    transform: rotate(270deg);
+  }
+  .our-clients__list,
+  .we-works-block ul,
+  .servises-index-page,
+  .catagery-index-page {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  .category-first-page-catalog_new {
+    float: none;
+  }
+  .our-clients-block {
+    width: 100%;
+  }
+  .servises-index-page .category-first-page-catalog {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .object-block,
+  #our-clients,
+  .our-clients-block,
+  #we-works,
+  .we-works-block {
+    width: 768px;
+    height: auto;
+  }
+  .we-works-block li {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    &:nth-child(2n)::after {
+      display: none;
+    }
+  }
+  .our-advantages,
+  .our-advantages li {
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .our-clients__list {
+    padding: 0 20px;
+  }
+  .our-clients-block p {
+    padding-right: 0;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  .bx-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  .content-index-page {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .febdack-block {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .feedback-text {
+    width: 400px;
+    position: static;
+  }
+  .feedback-phone,
+  .feedback-email {
+    position: static;
+    padding-left: 50px;
+    background-position: left bottom;
+  }
+  .feedback-block-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .feedback-phone div {
+    display: inline-block;
+    vertical-align: baseline;
+    padding-left: 10px;
+  }
+  .feedback-phone {
+    background-size: 30px 31px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .feedback-email {
+    background-size: 30px 16px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer-inner {
+    width: 768px;
+  }
+  .footer-inner .footer-menu-block {
+    box-sizing: border-box;
+  }
+}
