@@ -8,7 +8,7 @@
     height: auto;
   }
   .header-block {
-    width: 100%;
+    width: 768px;
     height: auto;
     box-sizing: border-box;
     padding-right: 20px;
@@ -69,6 +69,10 @@
   .menu-drop:checked + label {
     transform: rotate(270deg);
   }
+  #febdack-block-id .febdack-block {
+    width: 768px;
+    box-sizing: border-box;
+  }
   .our-clients__list,
   .we-works-block ul,
   .servises-index-page,
@@ -80,6 +84,12 @@
     align-items: flex-start;
     align-content: flex-start;
     box-sizing: border-box;
+  }
+  #febdack-block-id .febdack-block,
+  .our-clients__list,
+  .we-works-block ul {
+    margin-left: auto;
+    margin-right: auto;
   }
   .category-first-page-catalog_new {
     float: none;
@@ -139,7 +149,7 @@
     box-sizing: border-box;
   }
   .feedback-text {
-    width: 400px;
+    width: 350px;
     position: static;
   }
   .feedback-phone,
@@ -181,5 +191,55 @@
   .copyright {
     padding-left: 10px;
   }
-  
+  .content-index-page.inside {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+  }
+  .breadcrumb {
+    order: 2;
+  }
+  .left-side {
+    order: 3;
+  }
+  .right-side {
+    order: 1;
+    width: 100%;
+  }
+  .block-header-menu {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  .right-label {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 18px;
+    height: 9px;
+    margin-left: 10px;
+    background-image: url(../img/breadcrumb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  .rightmenu {
+    display: none;
+  }
+  .right-input:checked ~ .rightmenu {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .bottom-navigation,
+  .rel-product,
+  .otzyv-block {
+    width: 768px;
+  }
+  .shop-block-rel {
+    width: 280px;
+  }
+  .bottom-navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
 }
