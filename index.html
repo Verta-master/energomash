@@ -42,6 +42,8 @@
 			<ul class="top-menu-small">
 			  <li><a href="#">О нас</a></li>
 			  <li><a href="#">Оплата, доставка, гарантии</a></li>
+			  <input type="checkbox" name="topmenu-drop" id="topmenu-drop" class="topmenu-drop">
+        <label for="topmenu-drop" class="topmenu-drop__label"></label>
 			  <li><a href="#">Техническим специалистам</a></li>
 			  <li><a href="#">Обратная связь</a></li>
 			  <li><a href="#">Контакты</a></li>
@@ -82,7 +84,8 @@
 	</div>
 	
 	<div id="menu-katalog">
-		<div class="menu-katalog-block">
+		<div class="menu-katalog-block menu--closed">
+		  <button class="menu-btn"></button>
 			<ul class="topmenu">
 			  <li><a href="#">Компенсаторы</a></li>
 			  <li><a href="#">Резервуарное оборудование</a></li>
@@ -499,6 +502,7 @@
     e.timepicker.setDefaults(e.timepicker.regional["ru"]);
     });
   </script>
+  <script src="js/menu.js"></script>
   <script src="js/jquery.scrollTo.min.js" charset="UTF-8"></script>
   <script src="js/jquery.maskedinput.js" charset="UTF-8"></script>
   <script src="js/jquery.touchSwipe.min.js" charset="UTF-8"></script>

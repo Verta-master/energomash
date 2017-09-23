@@ -1,0 +1,193 @@
+@media @tablet {
+  .catagery-index-page,
+  .servises-index-page,
+  .we-works-block ul,
+  .header-phone {
+    flex-direction: column;
+  }
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header-adres,
+  .header-phone {
+    width: 50%;
+    font-size: 12px;
+  }
+  .logo,
+  .search-block {
+    width: 100%;
+  }
+  .top_search {
+    padding-top: 10px;
+  }
+  .input-search-top {
+    width: 220px;
+  }
+  .header-phone .number {
+    font-size: 16px;
+    margin: 0;
+  }
+  .catagery-index-page,
+  .our-clients__list,
+  .servises-index-page,
+  .we-works-block ul {
+    width: 320px;
+    align-items: center;
+  }
+  .we-works-block li:after {
+    display: none;
+  }
+  .our-clients-block p {
+    margin-right: 0;
+  }
+  .our-clients__list {
+    padding: 0;
+  }
+  .bx-wrapper {
+    width: 220px;
+  }
+  .febdack-block {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-block-btn {
+    position: static;
+    
+    &::after {
+      display: none;
+    }
+  }
+  .feedback-text {
+    width: 100%;
+  }
+  .big-z {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  a.modal-link {
+    width: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  .economy-time {
+    margin-left: 0;
+  }
+  .footer-inner .footer-menu-block {
+    width: 300px;
+    border-right: none;
+  }
+  .menu-katalog-block {
+    width: 100%;
+  }
+  .topmenu-drop__label {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 20px;
+    height: 30px;
+    background-image: url(../img/arrow-name-category.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  #topmenu-small,
+  .topmenu-small-block {
+    height: auto;
+    min-height: 30px;
+  }
+  #topmenu-small {
+    background-image: linear-gradient(to bottom, #454545, #2a2a2a);
+  }
+  #menu-katalog {
+    background-image: linear-gradient(to bottom, #4297d0, #1f5477);
+  }
+  .topmenu-small-block {
+    justify-content: flex-start;
+  }
+  .top-menu-small li:nth-child(n+3) {
+    display: none;
+  }
+  .topmenu-drop:checked ~ li {
+    display: inline-block;
+  }
+  .menu-btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .menu--closed {
+    .menu-btn {
+      background-image: url(../img/icon-menu-ham.svg);
+    }
+    .topmenu {
+      display: none;
+    }
+  }
+  .menu--opened {
+    .menu-btn {
+      background-image: url(../img/icon-menu-cross.svg);
+      background-size: 24px 24px;
+    }
+    .topmenu {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    .topmenu li a {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .menu-drop__label {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+    .menu-drop:checked~.level-dve-top-menu {
+      left: 0 !important;
+      width: 100%;
+    }
+  }
+  .modal {
+    width: 260px;
+    box-sizing: border-box;
+  }
+  .modal-order form {
+    width: 100%;
+  }
+  .modal-order form input[type="text"],
+  .modal-order form input[type="tel"],
+  .modal-order form input[type="email"] {
+    width: 190px;
+  }
+  .fields textarea {
+    width: 210px;
+  }
+  li.required_field,
+  .modal-order input[type="submit"] {
+    margin-left: 0;
+  }
+  .modal-order .block_header {
+    padding-top: 10px;
+    font-size: 24px;
+  }
+  .fields li .infofield {
+    width: auto;
+  }
+}
