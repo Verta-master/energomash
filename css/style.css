@@ -560,4 +560,7 @@ body {
     height: 32px;
     background-size: contain;
   }
+  .otzyv-name {
+    font-size: 14px;
+  }
 }
