@@ -1,4 +1,4 @@
-﻿$(document).ready(function() {
+$(document).ready(function() {
 
 	$(".modal-link").on("click", function(){
 		var modal = $(this).data("link");
