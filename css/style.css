@@ -308,8 +308,6 @@ body {
   }
 }
 @media (max-width: 767px) {
-  .catagery-index-page,
-  .servises-index-page,
   .we-works-block ul,
   .header-phone {
     -ms-flex-direction: column;
@@ -350,9 +348,13 @@ body {
     font-size: 16px;
     margin: 0;
   }
-  .catagery-index-page,
-  .our-clients__list,
   .servises-index-page,
+  .catagery-index-page {
+    width: 100%;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .our-clients__list,
   .we-works-block ul {
     width: 320px;
     -ms-flex-align: center;
@@ -521,15 +523,19 @@ body {
   .bottom-navigation,
   .otzyv-block,
   .rel-product,
+  .content-index-page.inside {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #febdack-block-id .febdack-block,
-  .content-index-page.inside,
   .copyright {
     width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
   .what-you-get-id {
-    width: 320px;
+    width: 100%;
     box-sizing: border-box;
     padding: 20px;
   }
@@ -543,7 +549,7 @@ body {
     height: auto;
   }
   .table-wrap {
-    width: 280px;
+    width: 100%;
     overflow-x: scroll;
   }
   .footer-inner .contacts {
